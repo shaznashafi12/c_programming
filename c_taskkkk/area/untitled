@@ -1,0 +1,9 @@
+#include <stdio.h>
+{
+    int square,x;
+    printf("enter a number");
+    scanf("%d",&x);
+    square=x*x;
+    printf("square of %d is %d",square);
+    return 0;
+}
